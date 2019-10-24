@@ -1,5 +1,5 @@
 {
-    "name": "coliving-talk/repositories",
+    "name": "coliving/repositories",
     "description": "Flexable Laravel 6.x Repository Library.",
     "keywords": [
         "league",
@@ -16,10 +16,10 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/contracts": "~6.0|~6.1|~6.2|~6.3",
-        "illuminate/database": "~6.0|~6.1|~6.2|~6.3"
+        "illuminate/contracts": "^6.0",
+        "illuminate/database": "^6.0"
     },
-        "require-dev": {
+    "require-dev": {
         "scrutinizer/ocular": "~1.1",
         "phpunit/phpunit": "4.*",
         "orchestra/testbench": "3.0.*",
@@ -33,19 +33,14 @@
         }
     },
     "autoload-dev": {
-    "psr-4": {
-        "SebastianBerc\\Repositories\\Test\\": "tests"
-    },
+        "psr-4": {
+            "SebastianBerc\\Repositories\\Test\\": "tests"
+        },
         "classmap": [
             "tests/migrations"
         ]
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
     }
 }
