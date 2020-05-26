@@ -1,6 +1,6 @@
 {
     "name": "coliving/repositories",
-    "description": "Flexable Laravel 6.x Repository Library.",
+    "description": "Flexable Laravel 6.x & 7.x Repository Library.",
     "keywords": [
         "league",
         "repository"
@@ -15,9 +15,9 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/contracts": "^6.0",
-        "illuminate/database": "^6.0"
+        "php": ">=7.2.0",
+        "illuminate/contracts": "^6.0 | ^7.0",
+        "illuminate/database": "^6.0 | ^7.0"
     },
     "require-dev": {
         "scrutinizer/ocular": "~1.1",
