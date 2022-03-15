@@ -1,6 +1,6 @@
 # Repositories
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sebastian-berc/repositories.svg?style=flat-square)](https://packagist.org/packages/sebastian-berc/repositories)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sebastian-berc/repositories.svg?style=flat-square)](https://packagist.org/packages/coliving/repositories)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/SebastianBerc/Repositories/master.svg?style=flat-square)](https://travis-ci.org/SebastianBerc/Repositories)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/SebastianBerc/Repositories.svg?style=flat-square)](https://scrutinizer-ci.com/g/SebastianBerc/Repositories/code-structure)
