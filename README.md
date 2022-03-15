@@ -16,7 +16,7 @@ Via Composer
 $ composer require sebastian-berc/repositories
 ```
 ``` bash
-$ composer require coliving-talk/repositories
+$ composer require coliving/repositories
 ```
 ## Usage
 
