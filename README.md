@@ -13,9 +13,6 @@
 Via Composer
 
 ``` bash
-$ composer require sebastian-berc/repositories
-```
-``` bash
 $ composer require coliving/repositories
 ```
 ## Usage
