@@ -1,6 +1,6 @@
 {
     "name": "coliving/repositories",
-    "description": "Flexable Laravel 6.x & 7.x Repository Library.",
+    "description": "Flexable Laravel 6.x & 7.x & 8.x & 9.x & 10.x Repository Library.",
     "keywords": [
         "league",
         "repository"
@@ -15,17 +15,14 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
-        "illuminate/contracts": "^6.0 | ^7.0",
-        "illuminate/database": "^6.0 | ^7.0"
+        "php": "^7.3 | ^8.0 | ^8.1 | ^8.2",
+        "illuminate/contracts": "^8.0 | ^9.0 | ^10.0",
+        "illuminate/database": "^8.0 | ^9.0 | ^10.0"
     },
     "require-dev": {
         "scrutinizer/ocular": "~1.1",
-        "phpunit/phpunit": "4.*",
-        "orchestra/testbench": "3.0.*",
-        "mockery/mockery": "^0.9.4",
-        "fzaninotto/faker": "^1.4",
-        "laracasts/testdummy": "^2.3"
+        "phpunit/phpunit": "9.* | 10.*",
+        "orchestra/testbench": "^8.1"
     },
     "autoload": {
         "psr-4": {
