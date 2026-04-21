@@ -19,7 +19,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -29,7 +29,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     /**
      * Clean up the testing environment before the next test.
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         parent::tearDown();
     }
